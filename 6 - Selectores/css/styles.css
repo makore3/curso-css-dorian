@@ -1,0 +1,32 @@
+/* SELECTORES */
+
+/* 
+    Simples
+        Elementales
+            Universal
+            De Tipo o Etiqueta -> Nombre de la etiqueta
+        De Atributo
+    Compuestos
+        Agrupados
+        Combinadores
+        Pseudoclases - Pseudoelementos
+*/
+
+/* Selector Universal */
+*{
+    background-color: lightcoral;
+}
+
+/* Selector de Etiqueta */
+h1{
+    background-color: lightcyan;
+}
+p{
+    background-color: lightgreen;
+}
+ul{
+    background-color: rgb(198, 39, 39);
+}
+li{
+    background-color: rgb(211, 211, 230);
+}
