@@ -6,6 +6,15 @@
             Universal
             De Tipo o Etiqueta -> Nombre de la etiqueta
         De Atributo
+            id -> id del elmemento
+            clase -> clase del elemento
+            otros atributos
+                [atributo]
+                [atributo=valor]
+                [atributo^=valor]
+                [atributo*=valor]
+                [atributo$=valor]
+                [atributo|=valor]
     Compuestos
         Agrupados
         Combinadores
@@ -29,4 +38,48 @@ ul{
 }
 li{
     background-color: rgb(211, 211, 230);
+}
+
+/* No se recomienda dar estilos con id */
+#title {
+    background-color: lightsalmon;
+}
+
+.title {
+    background-color: bisque;
+}
+
+.texto {
+    background-color: darkcyan;
+}
+
+[href] {
+    background-color: deeppink;
+}
+
+[href="https://www.google.com/"] {
+    background-color: rgb(172, 45, 113);
+}
+
+[href^="https:"] {
+    background-color: rgb(40, 255, 40);
+}
+
+[href*="google"] {
+    background-color: fuchsia;
+}
+
+[href$=".com/"] {
+    background-color: navajowhite;
+}
+
+[lang|="en"] {
+    background-color: mediumvioletred;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
+    background-color: grey;
 }
